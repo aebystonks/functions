@@ -1,6 +1,6 @@
 function calc(a, b, operation){
   if(operation === "+"){
-    return +a + +b;
+    return Number(a + b);
   }
   else if(operation === "*"){
     return a * b;
